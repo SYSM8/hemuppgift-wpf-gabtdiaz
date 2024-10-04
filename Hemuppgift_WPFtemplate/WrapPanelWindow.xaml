@@ -8,7 +8,7 @@
         Title="WrapPanelWindow" Height="700" Width="800">
     <Grid>
         <StackPanel Margin ="10" Orientation="Horizontal" VerticalAlignment="Top">
-            <RadioButton Content ="Horizontal"/>
+            <RadioButton Content ="Horizontal" Margin="0,0,20,0"/>
             <RadioButton Content="Vertical"/>
         </StackPanel>
         <WrapPanel Margin="0,30">

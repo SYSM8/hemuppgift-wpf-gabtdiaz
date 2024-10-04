@@ -15,10 +15,12 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+
         <Frame x:Name="MainFrame" />
         <Button x:Name="btnGrid" 
                 Content="Grid" 
                 Click="NavigateToGrid"/>
+        
         <Button x:Name="btnStackPanel" 
                 Content="StackPanel" 
                 Grid.Column="1"
@@ -26,7 +28,8 @@
                 
         <Button x:Name="btn3" 
                 Content="WrapPanel" 
-                Grid.Row="1"/>
+                Grid.Row="1" Click="NavigateToWrapPanel"/>
+        
         <Button x:Name="btn4" 
                 Content="DockPanel" 
                 Grid.Column="1" 
