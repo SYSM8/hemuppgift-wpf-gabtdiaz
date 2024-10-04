@@ -23,5 +23,17 @@ namespace Hemuppgift_WPFtemplate
         {
             InitializeComponent();
         }
+
+        private void RadioButtonHor(object sender, RoutedEventArgs e)
+        {
+            radioBtnHor.IsChecked = true;
+            wrapPanelEllipse.Orientation = Orientation.Horizontal;
+        }
+
+        private void RadioButtonVert(object sender, RoutedEventArgs e)
+        {
+            radioBtnVert.IsChecked = true;
+            wrapPanelEllipse.Orientation = Orientation.Vertical;
+        }
     }
 }
