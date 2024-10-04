@@ -21,7 +21,9 @@
                 Click="NavigateToGrid"/>
         <Button x:Name="btnStackPanel" 
                 Content="StackPanel" 
-                Grid.Column="1"/>
+                Grid.Column="1"
+                Click="NavigateToStackPanel"/>
+                
         <Button x:Name="btn3" 
                 Content="WrapPanel" 
                 Grid.Row="1"/>
@@ -29,7 +31,5 @@
                 Content="DockPanel" 
                 Grid.Column="1" 
                 Grid.Row="1"/>
-        
-                   
     </Grid>
 </Window>

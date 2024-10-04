@@ -44,8 +44,11 @@ namespace Hemuppgift_WPFtemplate
                         // Ändra knappens bakgrundsfärg
                         btnColor.Background = Brushes.LightGreen;
 
+                        // Ändra content i knappen 
+                        btnColor.Content = $"Row {txtBoxRow.Text}, Column {txtBoxColumn.Text}";
+
                         // Visa knappen
-                        btnColor.Visibility = Visibility.Visible;
+                        btnColor.Visibility = Visibility.Visible;                        
                     }
                     else
                     {
