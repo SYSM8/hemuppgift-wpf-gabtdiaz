@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System.Drawing;
+using System.Windows;
+using System.Windows.Media;
 
 namespace Hemuppgift_WPFtemplate
 {
@@ -11,6 +13,13 @@ namespace Hemuppgift_WPFtemplate
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void NavigateToGrid(object sender, RoutedEventArgs e)
+        {
+            GridWindow gridWindow = new GridWindow();
+            gridWindow.Show();
         }
     }
 }
