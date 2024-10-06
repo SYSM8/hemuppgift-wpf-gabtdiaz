@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
         mc:Ignorable="d"
-        Title="StackPanelWindow" Height="700" Width="700">
+        Title="StackPanelWindow" Height="450" Width="700">
     <Grid x:Name="Stack"
         Margin="0,40,0,0" Grid.Row="1">
 
@@ -21,8 +21,7 @@
                          Click="RadioButtonVertical" 
                          IsChecked="False"/>
         </StackPanel>
-        <StackPanel x:Name = "stackRectangle"
-            HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top" Grid.ColumnSpan="2">
+        <StackPanel x:Name = "stackRectangle" HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top" Grid.ColumnSpan="2">
             <Rectangle Width="100" 
                        Height="100"
                        Margin="5"
@@ -56,6 +55,6 @@
                        Margin="5"
                        Fill="Black"/>
         </StackPanel>
-
+        <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Stretch"/>
     </Grid>
 </Window>

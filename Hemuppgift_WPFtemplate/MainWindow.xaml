@@ -33,6 +33,8 @@
         <Button x:Name="btn4" 
                 Content="DockPanel" 
                 Grid.Column="1" 
-                Grid.Row="1"/>
+                Grid.Row="1"
+                Click="NavigateToDockPanel"/>
+                
     </Grid>
 </Window>

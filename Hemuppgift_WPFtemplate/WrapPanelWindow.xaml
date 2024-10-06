@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
         mc:Ignorable="d"
-        Title="WrapPanelWindow" Height="800" Width="800">
+        Title="WrapPanelWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10" Orientation="Horizontal" VerticalAlignment="Top">
             <RadioButton x:Name="radioBtnHor"
@@ -20,15 +20,39 @@
                          Click="RadioButtonVert"/>
         </StackPanel>
         <WrapPanel x:Name="wrapPanelEllipse" Margin="0,30">
-            <Ellipse Fill="Red" Width="100" Height="100" Margin="5"/>
-            <Ellipse Fill="Orange" Width="90" Height="90" Margin="5"/>
-            <Ellipse Fill="Yellow" Width="80" Height="80" Margin="5"/>
-            <Ellipse Fill="LightGreen" Width="70" Height="70" Margin="5"/>
-            <Ellipse Fill="Green" Width="60" Height="60" Margin="5"/>
-            <Ellipse Fill="LightBlue" Width="50" Height="50" Margin="5"/>
-            <Ellipse Fill="Blue" Width="40" Height="40" Margin="5"/>
-            <Ellipse Fill="Black" Width="30" Height="30" Margin="5"/>
+            <Ellipse Fill="Red" 
+                     Width="100" 
+                     Height="100" 
+                     Margin="5"/>
+            <Ellipse Fill="Orange" 
+                     Width="90" 
+                     Height="90" 
+                     Margin="5"/>
+            <Ellipse Fill="Yellow" 
+                     Width="80" 
+                     Height="80" 
+                     Margin="5"/>
+            <Ellipse Fill="LightGreen" 
+                     Width="70" 
+                     Height="70" 
+                     Margin="5"/>
+            <Ellipse Fill="Green" 
+                     Width="60" 
+                     Height="60" 
+                     Margin="5"/>
+            <Ellipse Fill="LightBlue" 
+                     Width="50" 
+                     Height="50" 
+                     Margin="5"/>
+            <Ellipse Fill="Blue" 
+                     Width="40" 
+                     Height="40" 
+                     Margin="5"/>
+            <Ellipse Fill="Black" 
+                     Width="30" 
+                     Height="30" 
+                     Margin="5"/>
         </WrapPanel>
-        <ScrollBar HorizontalAlignment="Right"/>
+        <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Stretch"/>
     </Grid>
 </Window>
