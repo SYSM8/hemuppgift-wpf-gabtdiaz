@@ -7,10 +7,15 @@
         mc:Ignorable="d"
         Title="StackPanelWindow" Height="450" Width="700">
     <Grid x:Name="Stack"
-        Margin="0,40,0,0" Grid.Row="1">
+        Margin="0,20,0,0">
 
-        <StackPanel Orientation="Horizontal" 
-                    VerticalAlignment="Top" Margin="0,-33,48,0" Height="15">
+        <StackPanel Background="LightGray"
+                    Orientation="Horizontal" 
+                    VerticalAlignment="Top" 
+                    Margin="0,-15" 
+                    Height="15"
+                    Width="700">
+                    
             <RadioButton x:Name="radioBtnHorizontal"
                          Content="Horizontal" 
                          Margin="0,0,40,0" 
@@ -21,7 +26,13 @@
                          Click="RadioButtonVertical" 
                          IsChecked="False"/>
         </StackPanel>
-        <StackPanel x:Name = "stackRectangle" HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top" Grid.ColumnSpan="2">
+        <ScrollViewer>
+            <StackPanel x:Name = "stackRectangle" 
+                        HorizontalAlignment="Left" 
+                        Orientation="Horizontal" 
+                        VerticalAlignment="Top" 
+                        Grid.ColumnSpan="2"
+                        Margin="0,10">
             <Rectangle Width="100" 
                        Height="100"
                        Margin="5"
@@ -50,11 +61,11 @@
                        Height="40"
                        Margin="5"
                        Fill="Blue"/>
-            <Rectangle Width="30" 
+                <Rectangle Width="30" 
                        Height="30"
                        Margin="5"
                        Fill="Black"/>
-        </StackPanel>
-        <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Stretch"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>

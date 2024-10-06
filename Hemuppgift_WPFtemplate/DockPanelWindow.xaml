@@ -34,9 +34,9 @@
                 Click="ShowImage"/>
         </DockPanel>
         <Image  x:Name="TrophyImage" 
-                Source="/TrophyImage.jpg"
+                Source="C:\Users\gabri\Source\Repos\hemuppgift-wpf-gabtdiaz\Hemuppgift_WPFtemplate\TrophyImage.jpg"
                 Height="250"
                 Width="250"
-                Visibility="Hidden"/>
+                Visibility="Hidden"/> 
     </Grid>
 </Window>
