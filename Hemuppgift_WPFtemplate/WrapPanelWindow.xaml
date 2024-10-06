@@ -7,22 +7,26 @@
         mc:Ignorable="d"
         Title="WrapPanelWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Orientation="Horizontal" 
+        <StackPanel Margin="0,0,0,10"
+                    Orientation="Horizontal" 
                     VerticalAlignment="Top"
-                    Background="LightGray">
-            <RadioButton x:Name="radioBtnHor"
+                    Background="LightGray"
+                    Grid.Row="0">
+            <RadioButton x:Name="radioBtnH"
                          Content="Horizontal" 
                          Margin="0,0,20,0"
-                         IsChecked="False"
-                         Click="RadioButtonHor"/>
+                         Click="RadioButtonHor"
+                         IsChecked="False"/>
 
-            <RadioButton x:Name="radioBtnVert"
+            <RadioButton x:Name="radioBtnV"
                          Content="Vertical"
                          IsChecked="False"
                          Click="RadioButtonVert"/>
         </StackPanel>
-        <ScrollViewer>
-        <WrapPanel x:Name="wrapPanelEllipse" Margin="0,30">
+        
+        <ScrollViewer Margin="0,15">
+        <WrapPanel x:Name="wrapPanelEllipse" 
+                   Margin="0,20">
             <Ellipse Fill="Red" 
                      Width="100" 
                      Height="100" 
