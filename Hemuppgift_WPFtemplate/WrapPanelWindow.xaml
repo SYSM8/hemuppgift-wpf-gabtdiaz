@@ -10,8 +10,7 @@
         <StackPanel Margin="0,0,0,10"
                     Orientation="Horizontal" 
                     VerticalAlignment="Top"
-                    Background="LightGray"
-                    Grid.Row="0">
+                    Background="LightGray">
             <RadioButton x:Name="radioBtnH"
                          Content="Horizontal" 
                          Margin="0,0,20,0"
